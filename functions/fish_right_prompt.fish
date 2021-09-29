@@ -1,6 +1,6 @@
 function fish_right_prompt
   set -l exit_code $status
-  set_color black
+  set_color $fish_color_autosuggestion[1]
   printf $CONDA_PROMPT_MODIFIER
   set_color "FA8D3E"
   printf ' | '
