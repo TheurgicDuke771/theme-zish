@@ -8,6 +8,8 @@ Zhishen Wen's simple fun theme =)
 User, host, abbreviated path, and git branch info
 
 ## Right prompt
-Exit code and time
+Conda prompt, exit code and time
 
 Enjoy!
+
+![zish_current](./zish_current.png)

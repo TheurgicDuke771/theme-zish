@@ -9,11 +9,11 @@ function fish_prompt
   printf '┌─<'
   set_color -o blue
   printf '%s ' (whoami)
-  set_color $fish_color_autosuggestion[1]
+  set_color magenta
   printf '@ '
   set_color cyan
   printf '%s ' (hostname|cut -d . -f 1)
-  set_color $fish_color_autosuggestion[1]
+  set_color magenta
   printf 'in '
   set_color -o green
   printf '%s' (prompt_pwd)
