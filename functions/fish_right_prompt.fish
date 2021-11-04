@@ -3,7 +3,7 @@ function fish_right_prompt
   set_color $fish_color_autosuggestion[1]
   printf $CONDA_PROMPT_MODIFIER
   set_color "FA8D3E"
-  printf ' | '
+  printf '| '
   if test $exit_code -ne 0
     set_color red
   else
